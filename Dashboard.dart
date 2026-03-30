@@ -115,7 +115,6 @@ class DashboardHome extends StatelessWidget {
                 
                 const SizedBox(height: 32),
                 
-                // CORREÇÃO AQUI: Utilizando a variável 'isLandscape' no texto do título!
                 Text(
                   'Desempenho Anual (${isLandscape ? "Modo Paisagem 🔄" : "Modo Retrato 📱"})', 
                   style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.black87)
